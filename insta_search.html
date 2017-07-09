@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Insta Search</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+	<link rel="stylesheet"  href="G:\insta_search.css">
+
+</head>
+
+<body>
+	
+		<ul>
+  			
+  			<div id="nav" class="nav_right">
+  				<li id="right"><a class="active" href="#home"><i class="fa fa-heart"></i></a></li>
+				<li id="right"><a href="#news"><i class="fa fa-search"></i></a></li>
+				<li id="right"><a href="#about"><i class="fa fa-file"></i></a></li>
+			</div>
+			<img  id="logo" src="https://zoompf.com/wp-content/uploads/2012/04/instagram-logo-side.jpg">
+			<div id="search">
+					
+			</div>
+		</ul>
+
+	
+	<div class="image">
+		<div style="margin-bottom: 20px;width:  500px;margin-right: auto;margin-left: auto;text-align: center;">
+			<span id="name" >
+				<span class="full_name">
+					Search Result    
+				</span>
+				
+					<!-- <br>
+					<span id="next_line" style="vertical-align: middle;"> 
+						<span id="name">21 posts </span>
+						<span id="name">1.6k chutiye </span>
+						<span id="name">4 following </span>
+				</span> -->
+			</div>
+
+	</div> 
+	
+
+		<div id="space">
+
+		</div>
+		
+
+	
+	<div id="1" class="row">
+		 <span id="modal" class="group"> 
+		</span>
+		<span  class="group"> 
+		</span>
+		<span class="group"> 
+		</span>
+	
+		<div class="group"> 
+		</div>
+		<div class="group"> 
+		</div>
+		<div class="group"> 
+		</div>
+	
+		<div class="group"> 
+		</div>
+		<div class="group"> 
+		</div>
+		<div class="group"> 
+		</div>
+	</div> 
+	<div id="myModal" class="modal">
+
+
+  <div class="modal-content">
+    <span class="close"></span>
+    <div id="modal1">Random text</div>
+  </div>
+  </div>
+<ul id="bottom">
+  			
+  			<div id="b_nav">
+  				<li class="b"><a ><i class="fa fa-heart"></i></a></li>
+				<li class="b"><a><i class="fa fa-search"></i></a></li>
+				<li class="b"><a><i class="fa fa-search"></i></a></li>
+				<li class="b"><a><i class="fa fa-search"></i></a></li>
+				<li class="b"><a href="G:\Insta\insta_profile.html"><i class="fa fa-file"></i></a></li>
+			</div>
+			
+		</ul>
+ <script>
+
+var modal = document.getElementById('myModal');
+
+var btn = document.getElementById("1");
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";}}
+document.addEventListener('keyup', function(e) {
+    if (e.keyCode == 27) {
+        modal.style.display = "none";
+    }});
+ </script>
+</html>

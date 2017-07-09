@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+body {background-color: #f9f9f9;
+	margin:0;}
+#b_nav{
+	height: 100px;
+	width: 99%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#bottom{
+	display: none;
+	list-style-type: none;
+	bottom: 0px;
+    
+    margin: 0;
+   
+    padding: 0;
+    position: fixed; 
+    overflow: hidden;
+    background-color: #efefef;
+    width: 100%;
+}
+
+#top{ 
+    list-style-type: none;
+    margin-left: 100px;
+    margin: 0;
+    margin-right: 200px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #efefef;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+	vertical-align:right;
+	right: 100px;
+    display: block;
+    color: #adadad;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+#nav{
+	margin-right: 16%;
+	
+}
+#nav_left{
+	margin-left: 20%;
+	
+}
+.active {
+    background-color: #edc883;
+}
+#logo{
+	width: 14%;
+	max-width: 150px;
+	height: auto;
+	float: left;
+	margin-left: 16%;
+
+
+
+}
+#search{
+	width: 20%;
+	height: 25px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:  #adadad ;
+	
+}
+
+
+.b{	background-color: #999999;
+	vertical-align:right;
+	right: 100px;
+    display: block;
+    color: #adadad;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.b{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.image_card{
+width: 60%;
+max-width: 600px;
+border-radius: 4px;
+min-height: 100px; 
+
+background-color: #fff;
+margin-left: auto;
+margin-right: auto;
+margin-top: 96.2px;
+border-color: #adadad;
+}
+@media screen and (max-device-width: 640px) {
+	#logo{
+		display: none;
+	}
+	#bottom{
+		display: block;
+		height: 100px;
+		background-color: #efefef;
+	}
+	#nav{
+		display: none;
+	}
+	#search{
+		display: none;
+	}
+  
+}
+@media screen and (max-device-width: 360px) {
+	#logo{
+		display: none;
+	}
+	#bottom{
+		display: block;
+		height: 100px;
+		background-color: #efefef;
+	}
+	#nav{
+		display: none;
+	}
+	#search{
+		display: none;
+	}
+  
+}
+
+.image{
+	
+	width: 100%;
+	margin-left: auto;
+
+	margin-right: auto;
+
+
+}
+#name{
+	display: inline-block;
+}
+#dp{
+ width: 40px;
+ height: 40px;
+ margin-left: 20px;
+ border-radius: 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+
+}
+.details{
+	background-color: #fff;
+	min-height: 80px;
+	
+
+
+}
+.comments{
+	min-height: 80px;
+	
+	background-color: #dbdbdb;
+}
+
