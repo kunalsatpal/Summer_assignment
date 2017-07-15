@@ -49,26 +49,26 @@
 		
 
 	
-	<div id="1" class="row">
-		 <span id="modal" class="group"> 
+	<div  class="row">
+		 <span id="1" class="group" onclick="f()"> 
 		</span>
-		<span  class="group"> 
+		<span id="2" class="group" onclick="f()" > 
 		</span>
-		<span class="group"> 
+		<span  id="3" class="group" onclick="f()"> 
 		</span>
 	
-		<div class="group"> 
+		<div id="4" class="group" onclick="f()"> 
 		</div>
-		<div class="group"> 
+		<div id="5" class="group" onclick="f()"> 
 		</div>
-		<div class="group"> 
+		<div id="6" class="group" onclick="f()"> 
 		</div>
 	
-		<div class="group"> 
+		<div id="7" class="group" onclick="f()"> 
 		</div>
-		<div class="group"> 
+		<div id="8" class="group" onclick="f()"> 
 		</div>
-		<div class="group"> 
+		<div id="9" class="group" onclick="f()"> 
 		</div>
 	</div> 
 	<div id="myModal" class="modal">
@@ -76,7 +76,7 @@
 
   <div class="modal-content">
     <span class="close"></span>
-    <div id="modal1">Random text</div>
+    <div id="modal1">Image</div>
   </div>
   </div>
 <ul id="bottom">
@@ -96,10 +96,10 @@ var modal = document.getElementById('myModal');
 
 var btn = document.getElementById("1");
 
-btn.onclick = function() {
+function f() {
     modal.style.display = "block";
 }
-window.onclick = function(event) {
+window.onclick = function() {
     if (event.target == modal) {
         modal.style.display = "none";}}
 document.addEventListener('keyup', function(e) {

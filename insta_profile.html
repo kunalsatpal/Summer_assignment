@@ -59,27 +59,27 @@ margin-top: 90px;
 		
 	
 	<div id="1" class="row">
-		 <span id="modal" class="group"> 
+		 <span id="1" class="group" onclick="f()"> 
 		</span>
-		<span  class="group"> 
+		<span id="2" class="group" onclick="f()" > 
 		</span>
-		<span class="group"> 
+		<span  id="3" class="group" onclick="f()"> 
 		</span>
 	
-		<div class="group"> 
+		<div id="4" class="group" onclick="f()"> 
 		</div>
-		<div class="group"> 
+		<div id="5" class="group" onclick="f()"> 
 		</div>
-		<div class="group"> 
+		<div id="6" class="group" onclick="f()"> 
 		</div>
 	
-		<div class="group"> 
+		<div id="7" class="group" onclick="f()"> 
 		</div>
-		<div class="group"> 
+		<div id="8" class="group" onclick="f()"> 
 		</div>
-		<div class="group"> 
+		<div id="9" class="group" onclick="f()"> 
 		</div>
-	</div> 
+	</div>  
 	<div id="myModal" class="modal">
 
   <div class="modal-content">
@@ -105,7 +105,7 @@ var modal = document.getElementById('myModal');
 
 var btn = document.getElementById("1");
 
-btn.onclick = function() {
+function f() {
     modal.style.display = "block";
 }
 window.onclick = function(event) {
