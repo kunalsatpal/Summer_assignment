@@ -7,7 +7,7 @@ body {background-color: #f9f9f9;
 #b_nav{
 	
 	
-	height: 100px;
+	height: 70px;
 	width: 99%;
 	margin-right: auto;
 	margin-left: auto;
@@ -73,7 +73,7 @@ li a:hover:not(.active) {
 .active {
     background-color: #edc883;
 }
-#logo{
+#logo{margin-top: 6px;
 	width: 10%;
 	max-width: 150px;
 	height: auto;
@@ -85,7 +85,7 @@ li a:hover:not(.active) {
 #search{
 	width: 20%;
 	height: 25px;
-	margin-top: 10px;
+	margin-top: px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color:  #adadad ;
@@ -101,9 +101,15 @@ background-color: #ff0000;
 margin-top:1000px;
 border-color: #adadad;
 }
+#image{
+	margin: 20px;
+	 margin-top: 0px;
+	 margin-left: 20%;
+	float: left;
+}
 .image{
 	
-	width: 100%;
+	width: 99%;
 	margin-left: auto;
 	margin-top: 32px;
 	margin-right: auto;
@@ -111,18 +117,52 @@ border-color: #adadad;
 
 }
 #name{
-	margin-left: 10%;
+	height: 180px;
+	margin-left: 5%;
 }
 .full_name{
+	float: left;
 	font-size: 32px;
 
 }
+.float{
+	float: left;
+	width: 100%;
+}
 .edit{
-	font-size: 24px;
-	font-style: Roboto;
+	float: left;
+	margin-top: 10px;
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	margin-left: 25px;
+	background-color: #777777;
+}
+.full_name{
+	float: left;
+	display: inline-block;
+}
+.att{
+	width: 100px;
+	height: 15px;
+	display: inline-block;
+	float: left;
+	margin: 20px;
+	margin-left: 0px;
+	margin-right: 20px;
+	background-color: #999999;
+	
+}
+#empty{
+	display: inline-block;
+	width: 55%;
+	background-color: red;
+	height: 1px;
+	float: left;
 }
 #dp{
- width: 10%;
+	
+ width: 13%;
  max-width: 120px;
  height: auto;
  border-radius: 50%
@@ -144,6 +184,7 @@ border-color: #adadad;
 }
 
 .row{
+	vertical-align: middle;
 	width: 80%;
 	max-width: 800px;
 	margin-left: auto;
@@ -152,16 +193,16 @@ border-color: #adadad;
 
 
 }
-.b{	background-color: #111111;
-	vertical-align:right;
+.b{	background-color: #999999;
+	float: left;
 	right: 100px;
+	margin-top: 10px;
     display: block;
     color: #adadad;
-    text-align: center;
+   	max-width: 50px;
     padding: 14px 16px;
-    text-decoration: none;
-}
-.b{	width: 7%;
+    height: 15px;
+    width: 5%;
 	display: inline-block;
 	margin-right: 30px;
 	margin-left: 30px;
@@ -182,7 +223,7 @@ border-color: #adadad;
 	}
 	#bottom{
 		display: block;
-		height: 100px;
+		height: 70px;
 		background-color: #efefef;
 	}
 	#nav{
@@ -246,6 +287,7 @@ border-color: #adadad;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+
 #modal1{
 width: 500px;
 height: 400px;
