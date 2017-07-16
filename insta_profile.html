@@ -58,32 +58,34 @@
 		
 	
 	<div id="1" class="row">
-		 <div id="1" class="group" onclick="f()"> 
-		</div>
-		<div id="2" class="group" onclick="f()" > 
-		</div>
-		<div  id="3" class="group" onclick="f()"> 
-		</div>
+		 <img id="1" class="group" onclick="f(this.src)">
+
+		
+		<img id="2" class="group" onclick="f(this.src)" > 
+		
+		<img  id="3" class="group" onclick="f(this.src)"> 
+		</img>
 	
-		<div id="4" class="group" onclick="f()"> 
-		</div>
-		<div id="5" class="group" onclick="f()"> 
-		</div>
-		<div id="6" class="group" onclick="f()"> 
-		</div>
+		<img id="4" class="group" onclick="f(this.src)"> 
+		
+		<img id="5" class="group" onclick="f(this.src)"> 
+		
+		<img id="6" class="group" onclick="f(this.src)"> 
+		
 	
-		<div id="7" class="group" onclick="f()"> 
-		</div>
-		<div id="8" class="group" onclick="f()"> 
-		</div>
-		<div id="9" class="group" onclick="f()"> 
-		</div>
+		<img id="7" class="group" onclick="f(this.src)"> 
+		
+		<img id="8"  class="group" onclick="f(this.src)"> 
+		
+		<img id="9" class="group" onclick="f(this.src)"> 
+		
 	</div>  
 	<div id="myModal" class="modal">
 
   <div class="modal-content">
+  
     <span class="close">&times;</span>
-    <div id="modal1"></div>
+    <div id="modal1"> <img id="src" src="" style="width: 75%;float: left;"  ></div>
   </div>
   </div>
 <ul id="bottom">
@@ -102,10 +104,9 @@
 
 var modal = document.getElementById('myModal');
 
-var btn = document.getElementById("1");
-
 function f() {
     modal.style.display = "block";
+    src.src = this.src;
 }
 window.onclick = function(event) {
     if (event.target == modal) {
